@@ -1,5 +1,5 @@
 {
-  "name": "complete-teltonika-parser",
+  "name": "complete-teltonika-parser-fork",
   "version": "0.3.6",
   "description": "Parser for teltonika codecs",
   "main": "build/Scripts/ProtocolParser.js",
@@ -22,7 +22,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TimeLord2010/TeltonikaParser"
+    "url": "git+https://github.com/adamfraczkowski/TeltonikaParser"
   },
   "author": "Vinícius Gabriel",
   "license": "ISC"
