@@ -7,7 +7,7 @@ import { CalcCRC16 } from '../CRC16'
 
 export class GPRS {
 
-    type : 5 | 6
+    type : 5 | 6 | 14
     isResponse : boolean
     responseStr : string
 
@@ -15,6 +15,7 @@ export class GPRS {
         let type = pr.read(1)
         switch (type) {
             case 0x05:
+            case 0xE:
                 this.isResponse = false
                 break
             case 0x06:
